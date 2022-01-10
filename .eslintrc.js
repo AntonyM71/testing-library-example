@@ -12,6 +12,7 @@ module.exports = {
     "@vue/prettier",
     "plugin:jest-dom/recommended",
     "plugin:testing-library/vue",
+    "@vue/typescript/recommended",
   ],
   parserOptions: {
     parser: "babel-eslint",

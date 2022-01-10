@@ -5,15 +5,16 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
+import Vue from "vue";
 
-export default {
+export default Vue.extend({
   name: "App",
   components: {
     HelloWorld,
   },
-};
+});
 </script>
 
 <style>
